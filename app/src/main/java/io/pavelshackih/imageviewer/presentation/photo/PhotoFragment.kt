@@ -35,7 +35,7 @@ class PhotoFragment : Fragment() {
 
     companion object {
 
-        const val PHOTO = "glideCenterCrop"
+        const val PHOTO = "photo"
 
         @JvmStatic
         fun newInstance(photo: Photo): PhotoFragment {
